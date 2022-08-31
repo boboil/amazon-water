@@ -18,7 +18,8 @@
             font-size: 48px;
         }
         @include mobile {
-            font-size: 40px;
+            // font-size: 40px;
+            font-size: 36px;
         }
         + .descr {
             margin-top: 24px;
@@ -63,6 +64,12 @@
                 margin-top: 24px;
                 line-height: 1.4;
             }
+        }
+    }
+
+    br {
+        @include maxw480 {
+            display: none;
         }
     }
 }
