@@ -1,4 +1,4 @@
-<footer class="block block-subscribe-footer wow animate__fadeInUp" data-wow-delay=".5s" data-wow-offset="30">
+<footer class="block block-subscribe-footer wow animate__fadeInUp" data-wow-delay=".3s" data-wow-offset="30">
     <!-- на странице амбасадор див бг не выводить -->
     <div class="bg">
         <img src="{{asset('img/bg/bg-5.jpg')}}" alt="" loading="lazy">
@@ -7,12 +7,12 @@
 
     <div class="container">
         <div class="subscribe">
-            <h2 class="title block-title text-centered wow animate__fadeIn" data-wow-delay="1s">Be the first to know our
+            <h2 class="title block-title text-centered wow animate__fadeIn" data-wow-delay=".6s">Be the first to know our
                 news!</h2>
-            <div class="descr text-centered wow animate__fadeInUp" data-wow-delay="1.5s">
+            <div class="descr text-centered wow animate__fadeInUp" data-wow-delay=".9s">
                 Once a month you will hear about our latest features and hottest news. And no spam, of course.
             </div>
-            <form method="post" action="{{route('subscribe')}}" class="subscribe-form wow animate__fadeInUp" data-wow-delay="2s">
+            <form method="post" action="{{route('subscribe')}}" class="subscribe-form wow animate__fadeInUp" data-wow-delay="1.2s">
                 @csrf
                 <input name="email" type="email" placeholder="E-mail" class="subscribe-input" required>
                 <button type="submit" class="btn">Subscribe</button>
@@ -24,20 +24,21 @@
             <div class="footer-group">
                 <h4><a href="/">Contact us</a></h4>
                 <div class="footer-group-content">
-                    <a href="mailto:amazon@gmail.com">amazon@gamil.com</a>
+                    <a href="mailto:amazon@gmail.com">amazon@amazonspringwaters.com</a>
                     <address>
-                        11444 W. Olympic Blvd., Floor #2
-                        Los Angeles, CA 90064
+                        19 London End, Beaconsfield, Buckinghamshire, England, HP9 2HN
                     </address>
                 </div>
             </div>
             <div class="footer-group">
                 <h4><a href="{{route('spiring')}}">Amazon water</a></h4>
                 <div class="footer-group-content">
-                    <a href="/">Ordering & Delivery</a>
                     <a href="{{route('sustainability')}}">Sustainability</a>
                     <a href="{{route('spiring')}}">The water</a>
-                    <a href="/">Other</a>
+                    <a href="{{route('about')}}">About us</a>
+                    <a href="{{route('ambassador')}}">Brand ambassador</a>
+                    <a href="{{route('index')}}#products">Product range</a>
+                    <a href="{{route('index')}}">Share price</a>
                 </div>
             </div>
             <div class="footer-group">
@@ -117,7 +118,7 @@
     </svg>
 </div>
 </div>
-<script src="{{asset('js/scripts.js')}}"></script>
+<script src="{{asset('js/scripts.js?v=1.1')}}"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="{{asset('js/main.js')}}"></script>
 <script>

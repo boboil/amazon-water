@@ -1,12 +1,12 @@
 @extends('layouts.default')
 @section('content')
     <main class="content">
-        <section class="block block-banner-text text-centered wow animate__fadeIn" data-wow-delay="2s">
+        <section class="block block-banner-text text-centered wow animate__fadeIn" data-wow-delay="1.2s">
             <div class="bg">
                 <img src="img/bg/bg-4.jpg" alt="" loading="lazy">
             </div>
             <div class="container">
-                <h1 class="title page-title wow animate__fadeIn" data-wow-delay="2.5s">Do you have a question?</h1>
+                <h1 class="title page-title wow animate__fadeIn" data-wow-delay="1.5s">Do you have a question?</h1>
 
                 <form action="{{route('createFeedback')}}" method="post" class="question-form">
                     @csrf
