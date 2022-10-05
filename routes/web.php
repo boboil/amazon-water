@@ -21,6 +21,7 @@ Route::get('about', [App\Http\Controllers\IndexController::class, 'about'])->nam
 Route::get('support', [App\Http\Controllers\IndexController::class, 'support'])->name('support');
 Route::post('create-feedback', [App\Http\Controllers\IndexController::class, 'createFeedback'])->name('createFeedback');
 Route::post('subscribe', [App\Http\Controllers\IndexController::class, 'subscribe'])->name('subscribe');
+Route::get('page/{slug}', [App\Http\Controllers\IndexController::class, 'terms'])->name('terms');
 
 Auth::routes();
 

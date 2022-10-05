@@ -10,7 +10,7 @@ AdminSection::registerModel(Product::class, function (ModelConfiguration $model)
         $display->setColumns(
             AdminColumn::link('title')->setLabel('Title'),
             AdminColumn::text('price')->setLabel('Price'),
-//            AdminColumn::text('discount')->setLabel('Discount'),
+            AdminColumn::text('volume')->setLabel('Volume'),
             AdminColumn::image('main_image')->setLabel('Image'),
             AdminColumnEditable::checkbox('stock')->setLabel('In stock')
         )->paginate(10);
@@ -26,10 +26,22 @@ AdminSection::registerModel(Product::class, function (ModelConfiguration $model)
                 AdminFormElement::text('price', 'Price')->required(),
             ], 4)
             ->addColumn([
-                AdminFormElement::image('main_image', 'Image')->required(),
+                AdminFormElement::image('main_image', 'Image')->setUploadSettings([
+                    'orientate' => [],
+                    'resize' => [100, null, function ($constraint) {
+                        $constraint->upsize();
+                        $constraint->aspectRatio();
+                    }]
+                ])->required(),
             ], 4)
             ->addColumn([
                 AdminFormElement::text('volume', 'Volume')->required(),
+            ], 4)
+            ->addColumn([
+                AdminFormElement::text('composition', 'Composition'),
+            ], 4)
+            ->addColumn([
+                AdminFormElement::number('sort_order', 'Sort order'),
             ], 4)
             ->addColumn([
                 AdminFormElement::ckeditor('description', 'Description'),

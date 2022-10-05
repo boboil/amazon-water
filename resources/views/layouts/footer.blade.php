@@ -7,12 +7,14 @@
 
     <div class="container">
         <div class="subscribe">
-            <h2 class="title block-title text-centered wow animate__fadeIn" data-wow-delay=".6s">Be the first to know our
+            <h2 class="title block-title text-centered wow animate__fadeIn" data-wow-delay=".6s">Be the first to know
+                our
                 news!</h2>
             <div class="descr text-centered wow animate__fadeInUp" data-wow-delay=".9s">
                 Once a month you will hear about our latest features and hottest news. And no spam, of course.
             </div>
-            <form method="post" action="{{route('subscribe')}}" class="subscribe-form wow animate__fadeInUp" data-wow-delay="1.2s">
+            <form method="post" action="{{route('subscribe')}}" class="subscribe-form wow animate__fadeInUp"
+                  data-wow-delay="1.2s">
                 @csrf
                 <input name="email" type="email" placeholder="E-mail" class="subscribe-input" required>
                 <button type="submit" class="btn">Subscribe</button>
@@ -26,50 +28,50 @@
                 <div class="footer-group-content">
                     <a href="mailto:amazon@gmail.com">amazon@amazonspringwaters.com</a>
                     <address>
-                        19 London End, Beaconsfield, Buckinghamshire, England, HP9 2HN
+                        <!-- 19 London End, Beaconsfield, Buckinghamshire, England, HP9 2HN -->
+                        70b High Street Bassingbourn, Royston, Hertz, United Kingdom, SG8 5LF
                     </address>
                 </div>
             </div>
             <div class="footer-group">
-                <h4><a href="{{route('spiring')}}">Amazon water</a></h4>
-                <div class="footer-group-content">
-                    <a href="{{route('sustainability')}}">Sustainability</a>
-                    <a href="{{route('spiring')}}">The water</a>
-                    <a href="{{route('about')}}">About us</a>
-                    <a href="{{route('ambassador')}}">Brand ambassador</a>
-                    <a href="{{route('index')}}#products">Product range</a>
-                    <a href="{{route('index')}}">Share price</a>
-                </div>
+                {{--                <h4><a href="{{route('spiring')}}">Amazon water</a></h4>--}}
+                {{--                <div class="footer-group-content">--}}
+                {{--                    <a href="{{route('sustainability')}}">Sustainability</a>--}}
+                {{--                    <a href="{{route('spiring')}}">The water</a>--}}
+                {{--                    <a href="{{route('about')}}">About us</a>--}}
+                {{--                    <a href="{{route('ambassador')}}">Brand ambassador</a>--}}
+                {{--                    <a href="{{route('index')}}#products">Product range</a>--}}
+                {{--                    <a href="{{route('index')}}">Share price</a>--}}
+                {{--                </div>--}}
             </div>
             <div class="footer-group">
-                <h4><a href="/">Terms & policies</a></h4>
+                <h4>Terms & policies</h4>
                 <div class="footer-group-content">
-                    <a href="/">Text</a>
-                    <a href="/">Text</a>
-                    <a href="/">Text</a>
-                    <a href="/">Text</a>
+                    @foreach($menu as $item)
+                        <a href="{{route('terms', $item->slug)}}">{{$item->title}}</a>
+                    @endforeach
                 </div>
             </div>
             <div class="footer-group">
                 <h4>Connect with us</h4>
                 <div class="footer-group-content">
                     <div class="socials">
-                        <a href="/" rel="noindex nofollow noreferrer" target="_blank">
+                        <a href="https://www.facebook.com/amazonnaturalspringwaters" rel="noindex nofollow noreferrer" target="_blank">
                             <svg width="24" height="24">
                                 <use xlink:href="#icon-facebook"></use>
                             </svg>
                         </a>
-                        <a href="/" rel="noindex nofollow noreferrer" target="_blank">
+                        <a href="https://www.instagram.com/amazon.spring.waters/" rel="noindex nofollow noreferrer" target="_blank">
                             <svg width="24" height="24">
                                 <use xlink:href="#icon-instagram"></use>
                             </svg>
                         </a>
-                        <a href="/" rel="noindex nofollow noreferrer" target="_blank">
+                        <a href="https://twitter.com/amazonspring_w" rel="noindex nofollow noreferrer" target="_blank">
                             <svg width="24" height="20">
                                 <use xlink:href="#icon-twitter"></use>
                             </svg>
                         </a>
-                        <a href="/" rel="noindex nofollow noreferrer" target="_blank">
+                        <a href="https://www.linkedin.com/company/amazon-spring-waters/about/?viewAsMember=true" rel="noindex nofollow noreferrer" target="_blank">
                             <svg width="24" height="24">
                                 <use xlink:href="#icon-linkedin"></use>
                             </svg>
@@ -123,7 +125,7 @@
 <script src="{{asset('js/main.js')}}"></script>
 <script>
     @if (Session::has('success'))
-        showSuccessfulness()
+    showSuccessfulness()
     @endif
 </script>
 </body>
