@@ -13,6 +13,6 @@ class Product extends Model
 
     public static function getAllProducts()
     {
-        return self::where('stock', true)->get();
+        return self::where('stock', true)->get()->sortBy('sort_order');
     }
 }

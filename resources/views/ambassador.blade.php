@@ -8,7 +8,11 @@
                         <h1 class="title page-title wow animate__fadeIn" data-wow-delay="1.5s">Brand ambassador</h1>
                         <div class="name wow animate__fadeInUp" data-wow-delay="1.8s">Philippe Coutinho</div>
                         <div class="story wow animate__fadeInUp" data-wow-delay="2.1s">
-                            Mr. Phillips is a visionary and primary driver of ASW.  He is a United Kingdom based businessman with a wide range of skills including corporate law, initial public offerings, capital raises, corporate restructuring, and enterprise management
+                            Philippe Coutinho is a Brazilian professional footballer who plays for Premier League club Aston Villa and the Brazilian national team.
+
+                            Philippe is the Brand Ambassador for Amazon Spring Water.
+
+                            Additionally, he is supporting the Rainforest Foundation, the charity of choice of Amazon Spring Water, a consumer donation program to protect the Amazon Rainforest.
                         </div>
                     </div>
                     <figure class="figure wow animate__fadeInRight" data-wow-delay="2.4s">

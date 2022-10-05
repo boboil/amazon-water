@@ -50,7 +50,7 @@
         <section class="block block-banner-text text-centered wow animate__fadeInUp" data-wow-delay=".3s">
             <div class="landscape">
                 <img src="{{asset('img/bg/bg-12.jpg')}}" alt="" loading="lazy" data-type="parallax" data-depth="0.01" style="height: 105%">
-                <img src="{{asset('img/bg/landscape-bird-1.png')}}" alt="" loading="lazy" data-type="parallax" data-depth="0.2" style="margin-top: 500px; left: initial; width: 60%; bottom: initial; object-position: right center; height: auto;">
+                <img src="{{asset('img/bg/landscape-bird-1.png')}}" alt="" loading="lazy" data-type="parallax" data-depth="0.2" style="margin-top: 500px; margin-right: 0; left: initial; max-width: clamp(120px, 20vw, 200px); bottom: initial; object-position: right center; height: auto;">
                 <img src="{{asset('img/bg/landscape-2-2.png')}}" alt="" loading="lazy" data-type="parallax" data-depth="-0.1" style="margin-top: -100px;">
                 <img src="{{asset('img/bg/landscape-2-3.png')}}" alt="" loading="lazy" data-type="parallax" data-depth="-0.15" style="margin-top: -150px;">
             </div>

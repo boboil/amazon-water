@@ -8,7 +8,7 @@
             <div class="container">
                 <h1 class="title page-title wow animate__fadeIn" data-wow-delay="1.5s">Saving the lungs <br> of the world</h1>
                 <div class="descr wow animate__fadeInUp" data-wow-delay="1.8s">
-                    Amazon Spring Waters presents the first global bottled water brand from Brazil, with a mission and brand built on the premise of saving the world’s “lungs”, the Amazon Rainforest
+                    AMAZON NATURAL SPRING WATERS presents the first global bottled water brand from Brazil, with a mission and brand built on the premise of saving the world’s “lungs”, the Amazon Rainforest
                 </div>
 {{--                <a href="/" class="btn wow animate__fadeIn" data-wow-delay="3.5s" target="_blank">buy now</a>--}}
                 <div class="bottom-arrow">
@@ -17,9 +17,9 @@
             </div>
         </section>
 
-        <section class="block block-our-story wow animate__fadeInUp" data-wow-delay=".3s" data-wow-offset="50">
+        <section class="block block-our-story wow animate__fadeInUp" data-wow-delay=".3s" data-wow-offset="50" id="our_story_block">
             <div class="bg">
-                <img src="img/bg/our-story-bg.jpg" alt="" loading="lazy">
+                <img src="{{asset('img/bg/our-story-bg.jpg')}}" alt="" loading="lazy">
             </div>
             <div class="container">
                 <div class="inner">
@@ -27,16 +27,16 @@
                         <h2 class="title block-title">Our story</h2>
                         <div class="descr wow animate__fadeIn" data-wow-delay="1.2s">
                             <p>
-                                Amazon Spring Waters presents the first global bottled water brand from Brazil, with a mission and brand built on the premise of saving the world’s “lungs”, the Amazon Rainforest.
+                                Amazon Spring Water has been purified over hundreds of years, filtering through sandstone and basalt formations, being part of one of the world’s largest underground lakes.
                             </p>
                             <p>
-                                The brand has been created to inspire a feeling of goodwill in consumers, making their choice to purchase a bottle of Amazon Spring Waters a choice to heal the Amazon Rainforest and in turn contribute to a healthier global environment.
+                                This purification process allows for the finest water to surface, arriving in your bottle.
                             </p>
                         </div>
-                        <a href="/" class="learn-more wow animate__fadeInUp" data-wow-delay="1.5s">Learn more</a>
+{{--                        <a href="/" class="learn-more wow animate__fadeInUp" data-wow-delay="1.5s">Learn more</a>--}}
                     </div>
                     <div class="banner wow animate__fadeInRight" data-wow-delay=".9s">
-                        <img src="img/temp/story-banner.jpg" alt="" loading="lazy">
+                        <img src="{{asset('img/temp/story-banner.jpg')}}" alt="" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
 
         <section class="block block-core-beliefs text-centered wow animate__fadeInUp" data-wow-delay=".3s">
             <div class="bg">
-                <img src="img/bg/bg-9.jpg" alt="" loading="lazy">
+                <img src="{{asset('img/bg/bg-9.jpg')}}" alt="" loading="lazy">
             </div>
             <div class="container">
                 <h2 class="title block-title wow animate__fadeIn" data-wow-delay=".6s">Our Core Beliefs</h2>
@@ -138,7 +138,7 @@
 {{--                                        Director--}}
 {{--                                    </div>--}}
 {{--                                    <div class="team-item-descr">--}}
-{{--                                        Dr. Leung joined the Amazon Spring Waters team in 2020, and is primary focused on identifying market investment opportunities and tailoring strategic solutions--}}
+{{--                                        Dr. Leung joined the AMAZON NATURAL SPRING WATERS team in 2020, and is primary focused on identifying market investment opportunities and tailoring strategic solutions--}}
 {{--                                    </div>--}}
 {{--                                </div>--}}
 {{--                            </div>--}}

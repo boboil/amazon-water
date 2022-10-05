@@ -66,7 +66,7 @@
                         <a href="{{route('index')}}#products" class="menu-link">Product range</a>
                     </li>
                     <li class="menu-elem">
-                        <a href="{{route('index')}}" class="menu-link">Share price</a>
+                        <a href="№" class="menu-link">Share price</a>
                     </li>
                 </ul>
             </nav>
