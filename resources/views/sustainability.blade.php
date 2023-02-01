@@ -37,7 +37,7 @@
                     <div class="text wow animate__fadeInRight" data-wow-delay="1.2s">
                         <h3 class="title">Rainforest foundation</h3>
                         <div class="descr wow animate__fadeInUp" data-wow-delay="1.5s">
-                            ASW is committed to developing a consumer donation program, with the conservation platform sanctioned by the Brazilian government, so that at least 0.2l of every one liter purchased is destined to protect the Amazon Rainforest.
+                            ASW is committed to developing a consumer donation program, with the conservation platform sanctioned by the Brazilian government, so that at least 0,05 BRL of every one liter purchased is destined to protect the Amazon Rainforest.
                         </div>
                     </div>
                 </div>
