@@ -8,17 +8,22 @@
             <div class="container">
                 <h1 class="title page-title wow animate__fadeIn" data-wow-delay="1.5s">Our Promise</h1>
                 <div class="descr wow animate__fadeInUp" data-wow-delay="1.8s">
-                    ASW established a successful model of public – private partnership that combines elements of non-profit charitable contribution, private enterprise, and governmental policy to accomplish a common goal.
+                    ANSW established a successful model of public – private partnership that combines elements of
+                    non-profit charitable contribution, private enterprise, and governmental policy to accomplish a
+                    common goal.
                 </div>
                 <div class="bottom-arrow">
-                    <svg width="14" height="19"><use xlink:href="#bottom-arrow"></use></svg>
+                    <svg width="14" height="19">
+                        <use xlink:href="#bottom-arrow"></use>
+                    </svg>
                 </div>
             </div>
         </section>
 
         <section class="block block-sustainable-future wow animate__fadeInUp" data-wow-delay=".3s" data-wow-offset="30">
             <div class="container">
-                <h2 class="title block-title text-centered wow animate__fadeIn" data-wow-delay=".6s">Sustainable future</h2>
+                <h2 class="title block-title text-centered wow animate__fadeIn" data-wow-delay=".6s">Sustainable
+                    future</h2>
                 <div class="text-group">
                     <div class="image wow animate__fadeInLeft" data-wow-delay=".9s">
                         <img src="{{asset('img/temp/future-banner-1.jpg')}}" alt="" loading="lazy">
@@ -26,7 +31,9 @@
                     <div class="text wow animate__fadeInRight" data-wow-delay="1.2s">
                         <h3 class="title">Environmental Protection</h3>
                         <div class="descr wow animate__fadeInUp" data-wow-delay="1.5s">
-                            ASW is proud to present its 300mL, 500mL, 1000mL made of 100% fully recyclable plastic bottles. ASW’s intent is to adopt fully biodegradable plastic for its packaging to ensure its products do not cause environmental damage.
+                            ANSW is proud to introduce its 300mL, 500mL, and 1000mL bottles, all made from 100% fully
+                            recyclable plastic. ANSW is committed to transitioning to fully biodegradable plastic
+                            packaging to minimize environmental impact from its products.
                         </div>
                     </div>
                 </div>
@@ -37,7 +44,9 @@
                     <div class="text wow animate__fadeInRight" data-wow-delay="1.2s">
                         <h3 class="title">Rainforest foundation</h3>
                         <div class="descr wow animate__fadeInUp" data-wow-delay="1.5s">
-                            ASW is committed to developing a consumer donation program, with the conservation platform sanctioned by the Brazilian government, so that at least 0,05 BRL of every one liter purchased is destined to protect the Amazon Rainforest.
+                            ANSW is committed to developing a consumer donation program, with the conservation platform
+                            sanctioned by the Brazilian government, so that at least 0,05 BRL of every one liter
+                            purchased is destined to protect the Amazon Rainforest.
                         </div>
                     </div>
                 </div>

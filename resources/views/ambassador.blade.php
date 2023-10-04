@@ -9,9 +9,7 @@
                         <div class="name wow animate__fadeInUp" data-wow-delay="1.8s">Philippe Coutinho</div>
                         <div class="story wow animate__fadeInUp" data-wow-delay="2.1s">
                             Philippe Coutinho is a Brazilian professional footballer who plays for Premier League club Aston Villa and the Brazilian national team.
-
                             Philippe is the Brand Ambassador for Amazon Spring Water.
-
                             Additionally, he is supporting the Rainforest Foundation, the charity of choice of Amazon Spring Water, a consumer donation program to protect the Amazon Rainforest.
                         </div>
                     </div>

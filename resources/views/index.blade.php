@@ -3,7 +3,6 @@
     <main class="content">
         <section class="block block-homescreen wow animate__fadeIn" data-wow-delay="1.2s">
             <div class="bg">
-                <!-- <img src="img/bg/bg-1.jpg" alt="" loading="lazy"> -->
                 <video id="video-banner" playsinline autoplay muted loop>
                     <source src="{{asset('video/video-2560.mp4')}}" type="video/mp4"
                             media="all and (min-width: 1921px)">
@@ -20,14 +19,12 @@
                 <div class="text">
                     <h1 class="title page-title wow animate__fadeIn" data-wow-delay="1.5s">AMAZON NATURAL SPRING WATERS</h1>
                     <div class="descr wow animate__fadeInUp" data-wow-delay="1.8s">
-                        <!-- The first bottled water brand from Brazil, with a mission and brand built on the premise of preservation the world’s “lungs” - the Amazon Rainforest -->
                         AMAZON NATURAL SPRING WATERS presents the first global bottled water brand from Brazil, with a mission
                         and brand built on the premise of saving the world’s “lungs”, the Amazon Rainforest
                     </div>
-{{--                    <a href="/" class="btn wow animate__fadeInUp" data-wow-delay="3.5s" target="_blank" title="buy on Amazon">Buy now</a>--}}
                 </div>
                 <figure class="figure wow animate__fadeIn" data-wow-delay="2.4s">
-                    <img src="{{asset('img/temp/homescreen-figure.png')}}" alt="" loading="lazy">
+                    <img src="{{asset('img/temp/mockup_main.png')}}" class="img-fluid" alt="" loading="lazy">
                 </figure>
                 <div class="bottom-arrow">
                     <svg width="14" height="19">
@@ -53,9 +50,7 @@
                                             {{$product->volume}}
                                             <br/><span class="font-size-18">{{$product->composition}}</span>
                                         </div>
-{{--                                        <div class="info-item-price">From ${{$product->price}} per case of 24</div>--}}
                                         <div class="info-item-descr">{!! $product->description !!}</div>
-                                        {{--<a href="/" target="_blank" class="btn info-item-order">buy now</a>--}}
                                     </div>
                                 </div>
                             @endforeach
@@ -101,10 +96,6 @@
                         </p>
                     </div>
                 </div>
-{{--                <a href="{{route('about')}}" class="image-link wow animate__fadeInUp" data-wow-delay="2.5s">--}}
-{{--                    <img src="{{asset('img/temp/brand-banner-2.jpg')}}" alt="" loading="lazy">--}}
-{{--                    <h3 class="title">Conservation international</h3>--}}
-{{--                </a>--}}
                 <a href="{{route('about')}}" class="image-link wow animate__fadeInUp" data-wow-delay="1.8s">
                     <img src="{{asset('img/temp/brand-banner-3.jpg')}}" alt="" loading="lazy">
                     <h3 class="title">AMAZON NATURAL SPRING WATERS Foundation</h3>

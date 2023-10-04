@@ -1,10 +1,7 @@
 <footer class="block block-subscribe-footer wow animate__fadeInUp" data-wow-delay=".3s" data-wow-offset="30">
-    <!-- на странице амбасадор див бг не выводить -->
     <div class="bg">
         <img src="{{asset('img/bg/bg-5.jpg')}}" alt="" loading="lazy">
     </div>
-    <!-- на странице амбасадор див бг не выводить -->
-
     <div class="container">
         <div class="subscribe">
             <h2 class="title block-title text-centered wow animate__fadeIn" data-wow-delay=".6s">Be the first to know
@@ -28,21 +25,11 @@
                 <div class="footer-group-content">
                     <a href="mailto:amazon@gmail.com">amazon@amazonspringwaters.com</a>
                     <address>
-                        <!-- 19 London End, Beaconsfield, Buckinghamshire, England, HP9 2HN -->
                         70b High Street Bassingbourn, Royston, Hertz, United Kingdom, SG8 5LF
                     </address>
                 </div>
             </div>
             <div class="footer-group">
-                {{--                <h4><a href="{{route('spiring')}}">Amazon water</a></h4>--}}
-                {{--                <div class="footer-group-content">--}}
-                {{--                    <a href="{{route('sustainability')}}">Sustainability</a>--}}
-                {{--                    <a href="{{route('spiring')}}">The water</a>--}}
-                {{--                    <a href="{{route('about')}}">About us</a>--}}
-                {{--                    <a href="{{route('ambassador')}}">Brand ambassador</a>--}}
-                {{--                    <a href="{{route('index')}}#products">Product range</a>--}}
-                {{--                    <a href="{{route('index')}}">Share price</a>--}}
-                {{--                </div>--}}
             </div>
             <div class="footer-group">
                 <h4>Terms & policies</h4>
@@ -56,22 +43,30 @@
                 <h4>Connect with us</h4>
                 <div class="footer-group-content">
                     <div class="socials">
-                        <a href="https://www.facebook.com/amazonnaturalspringwaters" rel="noindex nofollow noreferrer" target="_blank">
+                        <a href="https://www.facebook.com/amazonnaturalspringwaters" rel="noindex nofollow noreferrer"
+                           target="_blank">
                             <svg width="24" height="24">
                                 <use xlink:href="#icon-facebook"></use>
                             </svg>
                         </a>
-                        <a href="https://www.instagram.com/amazon.spring.waters/" rel="noindex nofollow noreferrer" target="_blank">
+                        <a href="https://www.instagram.com/amazonspringwaters"
+                           rel="noindex nofollow noreferrer" target="_blank">
                             <svg width="24" height="24">
                                 <use xlink:href="#icon-instagram"></use>
                             </svg>
                         </a>
                         <a href="https://twitter.com/amazonspring_w" rel="noindex nofollow noreferrer" target="_blank">
-                            <svg width="24" height="20">
-                                <use xlink:href="#icon-twitter"></use>
+                            <svg width="24" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487.43 456.19">
+                                <defs>
+                                    <style>.cls-1{fill:#ffffff;}</style>
+                                </defs>
+                                <path id="path1009" class="cls-1"
+                                      d="M7.48,21.9,195.66,273.57,6.29,478.1H48.91L214.71,299l134,179.11h145L294.93,212.33,471.2,21.9H428.58L275.89,186.82,152.51,21.9ZM70.16,53.3h66.63L431,446.7H364.39Z"
+                                      transform="translate(-6.29 -21.9)"/>
                             </svg>
                         </a>
-                        <a href="https://www.linkedin.com/company/amazon-spring-waters/about/?viewAsMember=true" rel="noindex nofollow noreferrer" target="_blank">
+                        <a href="https://www.linkedin.com/company/amazon-spring-waters/about/?viewAsMember=true"
+                           rel="noindex nofollow noreferrer" target="_blank">
                             <svg width="24" height="24">
                                 <use xlink:href="#icon-linkedin"></use>
                             </svg>
@@ -123,6 +118,7 @@
 <script src="{{asset('js/scripts.js?v=1.1')}}"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="{{asset('js/main.js')}}"></script>
+{{--<script src="{{asset('js/cookie.notice.js')}}"></script>--}}
 <script>
     @if (Session::has('success'))
     showSuccessfulness()

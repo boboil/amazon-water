@@ -17,6 +17,7 @@ Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('i
 Route::get('sustainability', [App\Http\Controllers\IndexController::class, 'sustainability'])->name('sustainability');
 Route::get('spiring', [App\Http\Controllers\IndexController::class, 'spiring'])->name('spiring');
 Route::get('ambassador', [App\Http\Controllers\IndexController::class, 'ambassador'])->name('ambassador');
+Route::get('coming-soon', [App\Http\Controllers\IndexController::class, 'comingSoon'])->name('comingSoon');
 Route::get('about', [App\Http\Controllers\IndexController::class, 'about'])->name('about');
 Route::get('support', [App\Http\Controllers\IndexController::class, 'support'])->name('support');
 Route::post('create-feedback', [App\Http\Controllers\IndexController::class, 'createFeedback'])->name('createFeedback');

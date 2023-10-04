@@ -4252,7 +4252,7 @@ main {
     z-index: 2; }
 
 .block-homescreen .container {
-  padding-top: 184px;
+  padding-top: 120px;
   padding-bottom: 80px;
   display: flex;
   align-items: center;
@@ -5471,4 +5471,48 @@ main {
 
 .font-size-18 {
     font-size: 18px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-item {
+    display: none;
+}
+
+.dropdown:hover .dropdown-item {
+    display: block;
+    position: absolute;
+    top: 35px;
+    list-style: none;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.position-absolute {
+  position: absolute;
+}
+.width-max-content {
+  width: max-content;
+}
+.position-relative {
+  position: relative;
+}
+.color-red {
+  font-weight: 700;
+  color: #FF0000FF;
+}
+
+.menu-link.blink {
+  animation: blinker 2s linear infinite;
+  color: #00ff80;
+}
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+.max-width-170 {
+    max-width: 170px;
 }

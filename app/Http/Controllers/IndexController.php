@@ -67,4 +67,8 @@ class IndexController extends Controller
         $page = Page::getPage($slug);
         return view('page', compact('page'));
     }
+    public function comingSoon()
+    {
+        return view('coming');
+    }
 }
